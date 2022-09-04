@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'huruf', arial, sans-serif;
+
+}
+
+@font-face {
+    font-family: 'huruf';
+    src: url(font/rubik-regular-webfont.woff) format('woff');
+}
+
+@keyframes kiriAtaskeKananAtas {
+    0% {
+        background:linear-gradient(to right bottom, #f7d4cc, #f2f7c2);
+    }
+    10% {
+    }
+    20% {
+    }
+    30% {
+    }
+    40% {
+    }
+    50% {
+        background:linear-gradient(to right bottom, #f7d4cc, #f2f7c2);
+        padding-left: 93%;
+    }
+    60% {
+    }
+    70% {
+        padding-left: 93%;
+    }
+    80% {
+    }
+    90% {
+    }
+    100% {
+    }
+}
+
+@keyframes kananAtaskeKananBawah {
+    0% {
+        background:linear-gradient(to right bottom, #f7d4cc, #f2f7c2);
+        
+    }
+    10% {
+    }
+    20% {
+    }
+    30% {
+    }
+    40% {
+    }
+    50% {
+        background:linear-gradient(to right bottom, #f7d4cc, #f2f7c2);
+        padding-top: 34%;
+    }
+    60% {
+    }
+    70% {
+        padding-top: 34%;
+    }
+    80% {
+    }
+    90% {
+    }
+    100% {
+    }
+}
+
+@keyframes kananBawahkeKiriBawah {
+    0% {
+        background:linear-gradient(to right bottom, #f7d4cc, #f2f7c2);
+    }
+    10% {
+    }
+    20% {
+    }
+    30% {
+    }
+    40% {
+    }
+    50% {
+        background:linear-gradient(to right bottom, #f7d4cc, #f2f7c2);
+        padding-top: 34%;
+    }
+    60% {
+    }
+    70% {
+        padding-top: 34%;
+    }
+    80% {
+    }
+    90% {
+    }
+    100% {
+    }
+}
+
+@keyframes bawahKirikeKiriAtas {
+    0% {
+        background:linear-gradient(to right bottom, #f7d4cc, #f2f7c2);
+    }
+    10% {
+    }
+    20% {
+    }
+    30% {
+    }
+    40% {
+    }
+    50% {
+        background:linear-gradient(to right bottom, #f7d4cc, #f2f7c2);
+        padding-left: 93%;
+    }
+    60% {
+    }
+    70% {
+        padding-left: 93%;
+    }
+    80% {
+    }
+    90% {
+    }
+    100% {
+        
+    }
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(to right bottom, #0CCDA3, #C1FCD3);
+}
+
+.wrapper {
+    width: 100%;
+    height: 11vh;
+    background:linear-gradient(to right bottom, #dfafe9, #91f0e8);
+    position: relative;
+    border-bottom: 2px solid #fff;
+    box-shadow: 0px 5px 8px #C1FCD3;
+}
+
+h1, h2 {
+    text-shadow: 0px 2px 13px #0CCDA3;
+} 
+
+.firstname {
+    display: flex;
+    flex-direction: row;
+}
+
+.firstname a {
+    color: #fff;
+    text-decoration: none;
+    padding: 25px 0px 20px 25px;
+    font-size: 17px;
+}
+
+.firstname a:hover {
+    color: #585048;
+    transition: 0.4s ease-in-out;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #F9957F;
+    padding: 10px;
+    border-radius: 50px;
+    border: 2px solid ;
+}
+
+.navigation a:hover {
+    background-color: #F2F5D0;
+    transition: 0.3s ease-in-out;
+}
+
+ul {
+    margin-left: 70%;
+}
+
+li {
+    list-style-type: none;
+    padding: 25px 10px;
+}
+
+.content {
+    color: #fff;
+}
+
+.content h1 {
+    text-align: center;
+    padding-top: 40vh;
+}
+
+.content h2 {
+    text-align: center;
+}
+
+.kiriatas {
+    width: 50px;
+    height: 50px;
+    background:linear-gradient(to right bottom, #f7d4cc, #f2f7c2);
+    position: absolute;
+    margin: 20px 0 0 20px;
+}
+
+.container:hover .kiriatas {
+    animation: kiriAtaskeKananAtas 3s infinite;
+}
+
+.kananatas {
+    width: 50px;
+    height: 50px;
+    background:linear-gradient(to right bottom, #f7d4cc, #f2f7c2);
+    position: absolute;
+    margin-left: 95%;
+    margin-top: 20px;
+}
+
+.container:hover .kananatas {
+    animation: kananAtaskeKananBawah 3s 1s infinite;
+}
+
+.kananbawah {
+    width: 50px;
+    height: 50px;
+    background:linear-gradient(to right bottom, #f7d4cc, #f2f7c2);
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.container:hover .kananbawah {
+    animation: kananBawahkeKiriBawah 3s infinite;
+}
+
+.kiribawah {
+    width: 50px;
+    height: 50px;
+    background:linear-gradient(to right bottom, #f7d4cc, #f2f7c2);
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 37%;
+}
+
+.container:hover .kiribawah {
+    animation: bawahKirikeKiriAtas 3s 1s infinite;
+}
+
+.sembunyi {
+    width: 50px;
+    height: 50px;
+    background:linear-gradient(to right bottom, #f7d4cc, #f2f7c2);
+    position: absolute;
+    margin-left: 95%;
+    margin-top: 37%;
+}
+
+.kiriatas,
+ .kananatas,
+ .kananbawah,
+ .kiribawah,
+ .sembunyi {
+    box-shadow: 0px 4px 5px #C1FCD3;
+}
+
+
