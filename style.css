@@ -14,9 +14,11 @@ body {
 
 h1 {
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     padding-top: 30px;
     text-shadow: 2px 2px 5px #666;
+    position: relative;
+    left: 45%;
 }
 
 table {
@@ -30,8 +32,8 @@ h3 {
 
 h3 a {
     text-decoration: none;
-    color: #fff;
-    background-color: #D09573;
+    color: black;
+    background-color: #C1FCD3;
     padding: 10px;
     border-radius: 50px;
     border: 2px solid ;

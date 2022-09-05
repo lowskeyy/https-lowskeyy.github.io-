@@ -10,7 +10,7 @@
 
 body {
     font-family: 'huruf', arial, sans-serif;
-    background:linear-gradient(to right bottom, #0CCDA3, #C1FCD3);
+    background:linear-gradient(to right top, #0CCDA3, #C1FCD3);
 }
 
 h3 {
@@ -21,7 +21,7 @@ h3 {
 h3 a {
     text-decoration: none;
     color: #fff;
-    background-color: #D09573;
+    background-color: #0CCDA3;
     padding: 10px;
     border-radius: 50px;
     border: 2px solid ;
@@ -33,13 +33,18 @@ h3 a:hover {
 }
 
 table {
-    margin: 20px auto;
+    margin: 40px 50px;
+    box-shadow: 0px 0px 20px 5px #C1FCD3;
 }
 
 
 td {
-    padding: 10px;
+    padding: 5px;
     text-transform: capitalize;
+}
+
+th {
+    padding: 5px;
 }
 
 
