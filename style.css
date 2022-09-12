@@ -52,6 +52,7 @@ hr {
     background:linear-gradient(to right bottom, #dfafe9, #91f0e8);
     border-radius: 20px;
     box-shadow: 0 0 15px 1px white;
+    padding:15px;
 }
 
 /* ANIMASI KOTAK */
