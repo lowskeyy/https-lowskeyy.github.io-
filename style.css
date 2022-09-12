@@ -6,57 +6,121 @@
     src: url(font/rubik-regular-webfont.woff) format('woff');
 }
 /* ------------------------------------ */
+
 body {
     font-family: 'huruf', arial, sans-serif;
+    text-transform: capitalize;
     background-color: #0CCDA3;
+
 }
 
-
-h1 {
-    text-align: center;
-    font-size: 30px;
-    padding-top: 30px;
-    text-shadow: 2px 2px 5px #666;
-    position: relative;
-    left: 45%;
-}
-
-table {
-    margin: 20px auto;
-}
-
-h3 {
-    padding-left: 20px;
-    padding-top: 10px;
-}
-
-h3 a {
+a {
     text-decoration: none;
-    color: black;
+    color: lightblue;
+}
+
+h1, h2 {
+    text-align: center;
+    text-shadow: 1px 1px 5px #fff;
+    padding-bottom: 7px;
+}
+
+hr {
+    animation: hrAnimation 2s infinite;
+    transition: 2s;
+}
+
+.guru {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.kotak {
+    width: 50px;
+    height: 50px;
     background-color: #C1FCD3;
-    padding: 10px;
-    border-radius: 50px;
-    border: 2px solid ;
+    box-shadow: 0px 0px 20px 5px #C1FCD3;
+    position: relative;
+    opacity: .8;
 }
 
-h3 a:hover {
-    color: #d0d0d0;
-    transition: 0.3s ease-in-out;
+.a {
+    position: relative;
+    top:0px;
 }
 
+.b {
+    position: relative;
+    top:0px;
+}
 
+.c {
+    position: relative;
+    top:0px;
+}
+.d {
+    position: relative;
+    top:0px;
+}
 
+.e {
+    position: relative;
+    top:0px;
+}
 
+.f {
+    position: relative;
+    top:0px;
+}
 
+body:hover .a {
+    animation: kotakKiriAtas 8s linear infinite;
+}
+body:hover .b {
+    animation: kotakKiriAtas 8s .2s linear infinite;
+}
+body:hover .c {
+    animation: kotakKiriAtas 8s .4s linear infinite;
+}
+body:hover .d {
+    animation: kotakKiriAtas 8s .6s linear infinite;
+}
+body:hover .e {
+    animation: kotakKiriAtas 8s .8s linear infinite;
+}
+body:hover .f {
+    animation: kotakKiriAtas 8s 1s linear infinite;
+}
+.top {
+    display: flex;
+    justify-content: space-evenly;
+}
+/* Keyframe */
+@keyframes hrAnimation {
+    0% {
+        width: 20%;
+    }
+    50% {
+        width: 100%;
+    }
+    100% {
+        width: 20%;
+    }
+}
 
+@keyframes kotakKiriAtas {
+    0% {
+        transform: rotate(2160deg);
+    }
+    25% {
 
-
-
-
-
-
-
-
+    }
+    50% {
+        top:1500px;
+    }
+    100% {     
+    }
+}
 
 
 
