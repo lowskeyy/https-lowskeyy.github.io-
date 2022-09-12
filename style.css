@@ -25,6 +25,10 @@ h1, h2 {
     padding-bottom: 7px;
 }
 
+h3 {
+    padding-left: 10px;
+}
+
 hr {
     animation: hrAnimation 2s infinite;
     transition: 2s;
@@ -44,6 +48,13 @@ hr {
     opacity: .8;
 }
 
+.senin, .selasa, .rabu, .kamis, .jumat, .ingfo {
+    background:linear-gradient(to right bottom, #dfafe9, #91f0e8);
+    border-radius: 20px;
+    box-shadow: 0 0 15px 1px white;
+}
+
+/* ANIMASI KOTAK */
 .a {
     position: relative;
     top:0px;
