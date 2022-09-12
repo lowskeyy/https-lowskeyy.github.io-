@@ -205,14 +205,16 @@ ul.list li a {
     border-radius: 12px;
     box-shadow: 0 0 10px 3px #C1FCD3;
     border: 1px solid #0CCDA3;
-    opacity: 0;
     transition: 0.5s;
+    margin-top: -1000px;
 }
 
 .menu-toggle input:checked ~ ul {
     opacity: 0.8;
     transition: 0.5s;
+    margin-top: 0;
 }
+
 
 .content {
     color: #fff;
